@@ -3,33 +3,41 @@
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
-    .row.mb-4
-      .col-lg-4
+    p(data-aos="fade-left").mb-4 En un mundo donde la incertidumbre y el cambio constante son la norma, la capacidad de pensar estratégicamente y de anticipar posibles escenarios, se convierte en una competencia clave para los profesionales de hoy día. El pensamiento estratégico y la prospectiva, son herramientas que permiten no solo planificar el futuro, sino también adaptarse y responder con efectividad, a los desafíos del entorno. Esta unidad explica cómo estas herramientas se aplican en diferentes áreas, desde la gestión organizacional hasta el desarrollo sostenible, permitiendo entender su relevancia y cómo aprovechar esto en el entorno profesional.
+
+    p(data-aos="fade-left").mb-4 A lo largo de esta unidad, se trabajarán varias áreas de aplicación del pensamiento estratégico y la prospectiva:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-7
+
+        ol.lista-ol--cuadro(data-aos="fade-up")
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Se aprenderá cómo este enfoque contribuye a la gestión organizacional, facilitando la toma de decisiones informadas y la planificación a largo plazo.
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | También se explorará la importancia de la innovación y el desarrollo tecnológico en un contexto prospectivo, lo cual ayudará a entender cómo anticipar y adaptarse a las tendencias tecnológicas emergentes.
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | Además, se mostrará cómo la prospectiva puede ser una herramienta clave en la formación de políticas públicas y en el desarrollo social, permitiendo a los gobiernos y organizaciones responder mejor a los problemas actuales.
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            | Para concluir, se abordarán estrategias sostenibles para el desarrollo a largo plazo, destacando cómo el pensamiento prospectivo puede ayudar a construir un futuro más sostenible.
+
+      .col-lg-5 
         figure
           img(src="@/assets/curso/intro/1.png", data-aos="zoom-in")
-      .col-lg-8
-
-        .bg-color-1.p-4(data-aos="fade-left").mb-4
-          p(data-aos="fade-left").mb-0 En un mundo donde los cambios sociales, ambientales y tecnológicos son constantes, las organizaciones enfrentan la necesidad imperiosa de transformarse para mantenerse competitivas y relevantes. La sostenibilidad se convierte en un eje fundamental en esta transformación, dado que no solo busca generar valor económico, sino también aportar beneficios a la sociedad y proteger el medio ambiente. En esta unidad, exploraremos la innovación estratégica como el camino hacia el desarrollo sostenible, analizando cómo las empresas pueden adoptar enfoques innovadores que respondan a las demandas actuales, sin comprometer los recursos de futuras generaciones.
-
-        p(data-aos="fade-left") La Unidad 3 se centra en desarrollar la capacidad para diseñar y evaluar estrategias innovadoras que integren la sostenibilidad desde múltiples perspectivas: económica, social y ambiental. 
 
 
-
-    .bg-color-2.p-4(data-aos="fade-left").mb-5
+    .bg-color-1.p-4(data-aos="fade-left")
       .row.align-items-center
         .col-lg-auto
           img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
         .col-lg
-          p.mb-0 A través de herramientas analíticas, casos prácticos y dinámicas colaborativas, se comprenderá cómo la innovación puede convertirse en un motor de cambio positivo, tanto para la organización como para las comunidades en las que opera.  
-
-    .row.justify-content-center.align-items-start.mb-5
-      .col-lg-8
-        .bg-color-3.p-4(data-aos="fade-left").mb-4
-          p(data-aos="fade-left").mb-0 Además, se profundizará en la importancia de la responsabilidad social corporativa y su relación con la ventaja competitiva, en un mercado cada vez más exigente.
-          p(data-aos="fade-left").mb-0 A lo largo de esta unidad, se aprenderá a identificar oportunidades de innovación, gestionar la complejidad inherente a los procesos de sostenibilidad e implementar estrategias que favorezcan un desarrollo sostenible a largo plazo. Al finalizar, se estará preparado para justificar y aplicar conceptos de sostenibilidad en la práctica empresarial, promoviendo el cambio y adaptando la visión estratégica, a las nuevas realidades del entorno global.
-      .col-lg-4
-        figure
-          img(src="@/assets/curso/intro/3.png", data-aos="zoom-in")
+          p.mb-0 Al finalizar esta unidad, se habrán adquirido las habilidades necesarias para aplicar el pensamiento estratégico y la prospectiva en diferentes contextos. Se estará capacitado para reconocer oportunidades y anticipar riesgos en áreas como la innovación tecnológica, las políticas públicas y la sostenibilidad. Estos conocimientos permitirán tomar decisiones estratégicas más informadas y adaptarse con flexibilidad a los cambios del entorno, una competencia cada vez más valorada en el ámbito profesional.
 
 </template>

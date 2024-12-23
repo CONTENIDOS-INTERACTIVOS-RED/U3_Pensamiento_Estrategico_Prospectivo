@@ -1,7 +1,8 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Innovación estratégica y desarrollo sostenible',
+    tituloUnidad:
+      'Aplicaciones del pensamiento estratégico y prospectivo en diversas áreas ',
   },
   menuPrincipal: {
     menu: [
@@ -15,25 +16,90 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Estrategias para la implementación de Sistema de Gestión de Seguridad y Salud en el Trabajo',
+        titulo: 'Pensamiento estratégico en la gestión organizacional',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Definición y elementos claves del pensamiento estratégico',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo:
+              'Importancia del pensamiento estratégico en la toma de decisiones organizacionales',
+            hash: 't_1_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
         titulo:
-          'Monitoreo y evaluación de programas de seguridad y salud en el trabajo',
+          'Innovación y desarrollo tecnológico desde una perspectiva prospectiva',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Concepto de innovación y su relación con la prospectiva',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Tendencias tecnológicas emergentes y su impacto futuro',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo:
+              'Herramientas prospectivas para anticipar avances tecnológicos',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
         titulo:
-          'Estrategias para el fomento de una cultura de seguridad en el trabajo',
+          'Aplicación de la prospectiva en políticas públicas y desarrollo social',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Estrategias sostenibles para el desarrollo a largo plazo',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo:
+              'Concepto y principios de sostenibilidad en el pensamiento estratégico',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo:
+              'Planificación a largo plazo en sectores claves (ambiental, económico y social)',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo:
+              'Retos y beneficios de la sostenibilidad en la planificación estratégica',
+            hash: 't_4_3',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -72,120 +138,101 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?: (1 ed.). LID Editorial España.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/271461',
+    },
+    {
+      referencia:
+        'Bas Amorós, E. (2013). Prospectiva e innovación (Vol. 1: visiones): ( ed.). Plaza y Valdés (España).',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/42001',
+    },
+    {
+      referencia:
+        'Boada, A. J. & Cardona Montoya, G. Y. M. (2020). La prospectiva: más allá de las proyecciones: (1 ed.). Fondo Editorial CEIPA.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/217714',
+    },
+    {
+      referencia:
+        'Chávez Martínez, G. (2003). El pensamiento del estratega: ( ed.). Plaza y Valdés (México).',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/75568',
+    },
+    {
+      referencia:
+        'López Fernández, R. (2016). Expertos y prospectiva en la investigación pedagógica: ( ed.). Editorial Universo Sur.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/71774',
+    },
+    {
+      referencia:
+        'López Segrera, F. Luis Grosso, J. (Coord.) & José Mojica, F. (Coord.). (2004). América Latina y el Caribe en el siglo XXI: perspectiva y prospectiva de la globalización: ( ed.). Editorial Miguel Ángel Porrúa.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/75157',
+    },
+    {
+      referencia:
+        'Perilla Maluche, R. B. Orjuela Garzón, W. A. & Parra Moreno, C. (2020). Análisis de futuro: algunos métodos alternativos a la "caja de herramientas" de la prospectiva francesa: (1 ed.). Sello Editorial Universidad del Tolima.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/228417',
+    },
+    {
+      referencia:
+        'Sánchez González, M. (2018). Gestión estratégica, innovación y prospectiva en comunicación: bases, técnicas y casos prácticos: ( ed.). Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/59107',
+    },
+    {
+      referencia:
+        'Saldaña Almazán, J. & Niño Gutiérrez, N. S. (2017). Strategic planning at UAGro: ( ed.). Ediciones y Gráficos Eón.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/120296',
     },
   ],
   glosario: [
     {
-      termino: 'Adaptabilidad',
+      termino: 'Análisis de escenarios',
       significado:
-        'capacidad de ajustarse eficazmente a cambios en el entorno, manteniendo competitividad.',
+        'herramienta prospectiva que permite la creación de futuros alternativos para anticiparse a posibles cambios y adaptar la estrategia de la organización a diferentes contextos.',
     },
     {
-      termino: 'Análisis Delphi',
+      termino: 'Desarrollo social',
       significado:
-        'método para alcanzar consenso mediante consultas iterativas a expertos, útil en prospectiva.',
+        'proceso de mejora de la calidad de vida de una comunidad, enfocándose en aspectos como la educación, la salud y el bienestar social.',
     },
     {
-      termino: 'Análisis PESTEL',
+      termino: 'Innovación',
       significado:
-        'herramienta que evalúa factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales.',
+        'introducción de ideas, productos o procesos nuevos que generan mejoras y aumentan la competitividad de una organización',
     },
     {
-      termino: '<em>Brainstorming</em>',
+      termino: 'Pensamiento estratégico',
       significado:
-        'técnica de generación de ideas en grupo que fomenta creatividad y soluciones innovadoras.',
+        'proceso mental enfocado en la visión a largo plazo de una organización, que permite anticiparse a cambios y desarrollar planes flexibles y adaptativos para alcanzar objetivos',
     },
     {
-      termino: 'Cadenas de Suministro',
+      termino: 'Planificación estratégica',
       significado:
-        'red que gestiona el flujo de productos o servicios desde la producción hasta el cliente final.',
+        'proceso de diseño de objetivos y estrategias a largo plazo para guiar las acciones de una organización hacia un futuro deseado.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Prospectiva',
       significado:
-        'enfoque de resolución de problemas que combina creatividad, empatía y estructura.',
+        'enfoque estratégico que permite analizar múltiples futuros posibles para anticiparse a cambios y tomar decisiones informadas.',
     },
     {
-      termino: 'Economía Circular',
+      termino: 'Resiliencia organizacional',
       significado:
-        'modelo que promueve la reutilización de recursos, minimizando desechos y optimizando ciclos de vida.',
+        'capacidad de una organización para adaptarse y responder eficazmente a cambios y crisis, asegurando su continuidad y sostenibilidad en el tiempo.',
     },
     {
-      termino: 'Economía Verde',
+      termino: 'Responsabilidad social corporativa',
       significado:
-        'estrategia de desarrollo sostenible enfocada en reducir el impacto ambiental de las actividades económicas.',
-    },
-    {
-      termino: 'Escenarios Exploratorios',
-      significado:
-        'modelos que proyectan futuros posibles basados en tendencias e incertidumbres actuales.',
-    },
-    {
-      termino: 'Escenarios Normativos',
-      significado:
-        'modelos de futuros deseados que reflejan objetivos estratégicos específicos.',
-    },
-    {
-      termino: 'Escenarios Prospectivos',
-      significado:
-        'proyecciones de futuros posibles que ayudan a guiar la planificación estratégica.',
-    },
-    {
-      termino: '<em>Feedback</em>',
-      significado:
-        'proceso continuo de revisión y ajuste basado en resultados, mejora la toma de decisiones.',
-    },
-    {
-      termino: 'Gestión del Riesgo',
-      significado:
-        'identificación y mitigación de riesgos para asegurar el logro de objetivos estratégicos.',
-    },
-    {
-      termino: 'Innovación Abierta',
-      significado:
-        'estrategia que fomenta la colaboración con agentes externos para desarrollar nuevas ideas y soluciones.',
-    },
-    {
-      termino: 'Innovación Disruptiva',
-      significado:
-        'innovación que transforma sectores mediante productos o servicios accesibles y revolucionarios.',
-    },
-    {
-      termino: 'Innovación Estratégica',
-      significado:
-        'proceso de desarrollo de nuevas ideas para fortalecer la competitividad y adaptarse al entorno.',
-    },
-    {
-      termino: 'Mapa Mental',
-      significado:
-        'herramienta visual que organiza ideas de manera no lineal, fomentando la creatividad.',
-    },
-    {
-      termino: 'Responsabilidad Social Corporativa (RSC)',
-      significado:
-        'compromiso de la empresa con prácticas éticas que beneficien la sociedad y el medio ambiente.',
-    },
-    {
-      termino: 'SCAMPER',
-      significado:
-        'técnica que estimula la creatividad mediante Sustituir, Combinar, Adaptar, Modificar, Poner en otro uso, Eliminar y Reordenar.',
-    },
-    {
-      termino: '<em>Six Thinking Hats</em>',
-      significado:
-        'método de toma de decisiones que explora perspectivas mediante seis tipos de pensamiento.',
+        'compromiso de una organización para contribuir al bienestar social y ambiental, mejorando las condiciones de las comunidades en las que opera.',
     },
     {
       termino: 'Sostenibilidad',
       significado:
-        'enfoque que equilibra crecimiento económico, equidad social y protección ambiental a largo plazo.',
+        'concepto que busca el uso responsable de los recursos para asegurar su disponibilidad para las futuras generaciones, integrando aspectos económicos, sociales y ambientales',
     },
     {
-      termino: '<em>World</em> Café',
+      termino: 'Tendencias tecnológicas',
       significado:
-        'técnica de diálogo colaborativo que permite explorar ideas en grupos pequeños y conectar aportes.',
+        'desarrollos o avances en tecnología que pueden transformar sectores completos, generando cambios significativos en la sociedad y el mercado.',
     },
   ],
 }

@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 3: Estrategias para la implementación de Sistemas de Gestión de Seguridad y Salud en el Trabajo explora las herramientas clave para crear entornos laborales seguros y saludables. A partir de un enfoque integral, se analiza la planificación, diagnóstico, y ejecución de sistemas que cumplan con normativas nacionales como el Decreto 1072 y estándares internacionales como la ISO 45001. Además, se destacan estrategias para fomentar una cultura de seguridad, con énfasis en la capacitación continua y la participación activa de todos los niveles de la organización. Esta unidad sienta las bases para la gestión efectiva de la seguridad y salud laboral, impulsando el bienestar de los trabajadores y la sostenibilidad organizacional.
+      p(data-aos="fade-up").mb-5 La unidad 3: Pensamiento estratégico y prospectivo en diversas áreas, profundiza en la importancia de estas competencias para anticiparse a cambios, identificar oportunidades y diseñar estrategias adaptativas en un entorno dinámico. A lo largo de esta unidad, se explorará cómo el pensamiento estratégico contribuye a la toma de decisiones informadas, mientras que la prospectiva permite prever escenarios futuros y mitigar riesgos en áreas clave como la innovación tecnológica, las políticas públicas y la sostenibilidad. Este enfoque integral prepara a los estudiantes para liderar con visión estratégica y afrontar los desafíos del futuro con éxito.
       .row.justify-content-center
         .col-lg-12.mb-5
           figure.bg-color-sintesis.p-5.brounded

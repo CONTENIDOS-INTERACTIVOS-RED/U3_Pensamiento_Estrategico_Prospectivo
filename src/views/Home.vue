@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 En un entorno global donde los cambios sociales, ambientales y tecnológicos son constantes, las organizaciones deben innovar para garantizar su sostenibilidad y relevancia. Esta unidad explora cómo integrar la sostenibilidad en las estrategias empresariales, fomentando el desarrollo económico, social y ambiental. Aprenderás a identificar oportunidades de innovación, aplicar herramientas analíticas y comprender la importancia de la responsabilidad social corporativa para transformar las organizaciones hacia un impacto positivo sostenible.
-              
-              p #[b ¡Prepárate para impulsar el cambio en un mundo en evolución constante con visión estratégica y creativa!]
+              p.descripcion.mb-4 En un mundo marcado por la incertidumbre y el cambio acelerado, el pensamiento estratégico y prospectivo emerge como una competencia esencial para los profesionales. Esta unidad aborda cómo estas herramientas permiten no solo anticiparse a los retos del futuro, sino también diseñar soluciones innovadoras en áreas como la gestión organizacional, la innovación tecnológica y el desarrollo sostenible. Se explorarán conceptos y estrategias clave para fomentar la resiliencia y la adaptabilidad en un entorno dinámico.
+
+              p #[b ¡Prepárate para liderar con visión estratégica y construir un futuro sostenible!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -72,7 +72,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: #26617A
+    color: $color-terciario
   .home-content
     background-color: white
   .info-section
