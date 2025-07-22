@@ -197,7 +197,7 @@ export default {
     {
       termino: 'Innovación',
       significado:
-        'introducción de ideas, productos o procesos nuevos que generan mejoras y aumentan la competitividad de una organización',
+        'introducción de ideas, productos o procesos nuevos que generan mejoras y aumentan la competitividad de una organización.',
     },
     {
       termino: 'Pensamiento estratégico',
@@ -232,7 +232,7 @@ export default {
     {
       termino: 'Tendencias tecnológicas',
       significado:
-        'desarrollos o avances en tecnología que pueden transformar sectores completos, generando cambios significativos en la sociedad y el mercado.',
+        'desarrollos o avances en tecnología que pueden transformar sectores completos, generando cambios significativos en la sociedad y en el mercado.',
     },
   ],
 }

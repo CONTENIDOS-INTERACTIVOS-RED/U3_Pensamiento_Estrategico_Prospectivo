@@ -9,7 +9,7 @@
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-7
         .bg-color-5.p-4(data-aos="fade-left").h-100
-          p(data-aos="fade-left").mb-4 La prospectiva en políticas públicas permite anticiparse a desafíos emergentes mediante el análisis de tendencias y escenarios futuros, diseñando estrategias adaptativas y sostenibles. En el PDF Aplicación de la prospectiva , se estudiará cómo aplicar herramientas prospectivas para la planificación de políticas, destacando casos prácticos y ejemplos en áreas como salud, educación y sostenibilidad ambiental. Este enfoque estratégico promueve el bienestar social y un desarrollo equilibrado a largo plazo.
+          p(data-aos="fade-left").mb-4 La prospectiva en políticas públicas permite anticiparse a desafíos emergentes mediante el análisis de tendencias y escenarios futuros, diseñando estrategias adaptativas y sostenibles. En el PDF Aplicación de la prospectiva, se estudiará cómo aplicar herramientas prospectivas para la planificación de políticas, destacando casos prácticos y ejemplos en áreas como salud, educación y sostenibilidad ambiental. Este enfoque estratégico promueve el bienestar social y un desarrollo equilibrado a largo plazo.
 
           a.anexo.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
             .anexo__icono(:style="{'background-color': '#FCDFDB'}")

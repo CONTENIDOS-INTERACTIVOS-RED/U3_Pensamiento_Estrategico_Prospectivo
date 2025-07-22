@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Innovación y creatividad en la estrategia'")
+  BannerInterno(:subTitulo="'1. Pensamiento estratégico en la gestión organizacional'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-5
@@ -58,7 +58,7 @@
     #t_1_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.2] Importancia del pensamiento estratégico en la toma de decisiones organizacionales
 
-    p(data-aos="fade-left").mb-5 El pensamiento estratégico juega un papel esencial en la toma de decisiones organizacionales, porque proporciona un marco para evaluar opciones y seleccionar aquellas que estén alineadas con los objetivos y la visión de la empresa. En lugar de reaccionar ante los problemas inmediatos, el pensamiento estratégico permite a los líderes considerar el impacto, a largo plazo, de sus decisiones y desarrollar estrategias que generen valor sostenible (Boada & Cardona , 2020). Este enfoque ayuda a las organizaciones a evitar decisiones impulsivas o a corto plazo, fomentando una planificación que considera, tanto las oportunidades como los riesgos futuros.
+    p(data-aos="fade-left").mb-5 El pensamiento estratégico juega un papel esencial en la toma de decisiones organizacionales, porque proporciona un marco para evaluar opciones y seleccionar aquellas que estén alineadas con los objetivos y la visión de la empresa. En lugar de reaccionar ante los problemas inmediatos, el pensamiento estratégico permite a los líderes considerar el impacto, a largo plazo, de sus decisiones y desarrollar estrategias que generen valor sostenible (Boada & Cardona, 2020). Este enfoque ayuda a las organizaciones a evitar decisiones impulsivas o a corto plazo, fomentando una planificación que considera, tanto las oportunidades como los riesgos futuros.
 
     .row.mb-5
       .col-lg-5
@@ -68,7 +68,10 @@
         .bg-color-2.p-4(data-aos="fade-left").mb-4
           p(data-aos="fade-left").mb-0 La visión a largo plazo, es uno de los componentes más importantes del pensamiento estratégico en la toma de decisiones. Esta visión permite a los líderes enfocar sus decisiones en un futuro deseado y anticipar los recursos procesos y cambios necesarios, para lograrlo.  
 
-        p(data-aos="fade-left") El pensamiento estratégico juega un papel esencial en la toma de decisiones organizacionales, porque proporciona un marco para evaluar opciones y seleccionar aquellas que estén alineadas con los objetivos y la visión de la empresa. En lugar de reaccionar ante los problemas inmediatos, el pensamiento estratégico permite a los líderes considerar el impacto, a largo plazo, de sus decisiones y desarrollar estrategias que generen valor sostenible (Boada & Cardona , 2020). Este enfoque ayuda a las organizaciones a evitar decisiones impulsivas o a corto plazo, fomentando una planificación que considera, tanto las oportunidades como los riesgos futuros.
+        p(data-aos="fade-left") Esto es particularmente útil en la gestión de crisis o situaciones inciertas, donde una visión estratégica ayuda a los líderes a mantener el rumbo de la organización mientras enfrentan los desafíos del entorno. Por ejemplo, durante la crisis del COVID-19, muchas empresas tuvieron que tomar decisiones rápidas y estratégicas, para adaptarse a las nuevas circunstancias y asegurar su continuidad.
+
+
+    p(data-aos="fade-left") El pensamiento estratégico en la toma de decisiones, promueve una cultura de análisis y reflexión dentro de la organización. En lugar de tomar decisiones basadas en la intuición, los líderes que practican el pensamiento estratégico, analizan la situación desde diferentes perspectivas, considerando datos e información relevantes para tomar decisiones informadas.
 
 
     .row.mb-5

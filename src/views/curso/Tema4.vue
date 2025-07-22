@@ -21,6 +21,9 @@
 
     p(data-aos="fade-left").mb-4 El concepto de sostenibilidad se refiere al uso responsable y eficiente de los recursos naturales y humanos, garantizando su disponibilidad para las futuras generaciones. En el contexto del pensamiento estratégico, la sostenibilidad implica desarrollar políticas y prácticas que permitan el crecimiento y la evolución de una organización sin perjudicar al medio ambiente ni a las comunidades en las que opera (Boada & Cardona, 2020). Este enfoque a largo plazo, es fundamental para lograr un equilibrio entre los objetivos económicos, sociales y ambientales, promoviendo un desarrollo que sea beneficioso, tanto para el presente como para el futuro.
 
+    p(data-aos="fade-left").mb-4 Los principios de sostenibilidad en el pensamiento estratégico, incluyen:
+
+
 
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5.pb-md-3
@@ -66,6 +69,23 @@
               img(src='@/assets/curso/tema4/5.png', alt='')
 
 
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .bg-color-sintesis.p-4.mb-4
+          .row.justify-content-around.align-items-center
+            //- .col-md-auto
+            //-   img(src="@/assets/template/video.svg", style="width: 80px;").mx-auto.mb-4.mb-lg-0
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-4 #[b Para profundizar el tema, por favor visualizar el siguiente video: ]
+
+                  a.anexo.mb-0.bg-white.w-fit(href="https://www.youtube.com/watch?v=7KbP3iTybUY" target="_blank")(data-aos="flip-up")
+                    .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                      img(src="@/assets/componentes/youtube-icon.svg")
+                    .anexo__texto
+                      p <strong>Video. </strong> Raisa Berdugo. (2024). PENSAMIENTO ESTRATÉGICO PARA LA SOSTENIBILIDAD EMPRESARIAL [video]. YouTube. 
+
     #t_4_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 4.2] Planificación a largo plazo en sectores claves (ambiental, económico y social)
 
@@ -94,7 +114,7 @@
         p(data-aos="fade-left").mb-4 En conjunto, la planificación sostenible en los sectores ambiental, económico y social permite a las organizaciones crear un impacto positivo que perdure en el tiempo. Al adoptar un enfoque de sostenibilidad en cada uno de estos sectores, las organizaciones no solo logran reducir sus riesgos, sino también mejorar su reputación y fortalecer su resiliencia. 
 
         .bg-color-2.p-4(data-aos="fade-left").mb-4
-          p(data-aos="fade-left").mb-0 En el ámbito social, la planificación a largo plazo se orienta hacia la equidad y el bienestar de las comunidades en las que opera la organización.
+          p(data-aos="fade-left").mb-0 La planificación a largo plazo les permite adaptarse a las demandas cambiantes del mercado y a los desafíos globales, contribuyendo a un desarrollo más equilibrado y a la creación de valor a largo plazo
 
 
     #t_4_3.titulo-segundo(data-aos="flip-up")
@@ -127,6 +147,11 @@
           p(data-aos="fade-left").mb-0 Otro beneficio de la sostenibilidad en la planificación estratégica, es la reducción de riesgos. Al anticiparse a problemas ambientales y sociales, las organizaciones pueden minimizar su exposición a riesgos legales, reputacionales y financieros. 
 
     p(data-aos="fade-left").mb-5 Por ejemplo, adoptar prácticas de reducción de emisiones puede ayudar a las organizaciones a cumplir con regulaciones ambientales y evitar sanciones, además de reducir el impacto de posibles cambios regulatorios. A su vez, las organizaciones que operan de manera sostenible tienen una mayor capacidad de resiliencia ante los cambios del entorno y una base sólida para adaptarse a las demandas futuras del mercado.
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -162,3 +187,155 @@ export default {
   },
 }
 </script>
+
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Pensamiento estratégico y prospectivo',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'El pensamiento estratégico se enfoca en la planificación a corto plazo y en la resolución de problemas inmediatos.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              'Correcto, el pensamiento estratégico se centra en la visión a largo plazo y en anticiparse a los cambios en el entorno.',
+            mensaje_incorrecto:
+              'Incorrecto. El pensamiento estratégico no se enfoca en el corto plazo, sino en el largo plazo y la anticipación de cambios.',
+          },
+          {
+            id: 2,
+            texto:
+              'La adaptabilidad es un elemento fundamental del pensamiento estratégico, ya que permite a las organizaciones ajustarse a cambios en el entorno sin comprometer su visión.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La adaptabilidad es clave para el pensamiento estratégico.',
+            mensaje_incorrecto:
+              'Incorrecto. La adaptabilidad sí es fundamental en el pensamiento estratégico.',
+          },
+          {
+            id: 3,
+            texto:
+              'En la gestión organizacional, el pensamiento estratégico solo se aplica a los niveles altos de liderazgo y no incluye a los colaboradores.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El pensamiento estratégico debe involucrar a todos los niveles de la organización.',
+            mensaje_incorrecto:
+              'Incorrecto. El pensamiento estratégico no es exclusivo de los altos mandos.',
+          },
+          {
+            id: 4,
+            texto:
+              'La innovación desde una perspectiva prospectiva se centra únicamente en responder a las necesidades actuales del mercado.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La innovación prospectiva busca anticipar y crear nuevas oportunidades, no solo responder al presente.',
+            mensaje_incorrecto:
+              'Incorrecto. La innovación prospectiva va más allá de las necesidades actuales.',
+          },
+          {
+            id: 5,
+            texto:
+              'Las herramientas prospectivas ayudan a prever el impacto de las tendencias tecnológicas emergentes y a reducir el riesgo asociado con su implementación.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Las herramientas prospectivas permiten anticipar tendencias y reducir riesgos.',
+            mensaje_incorrecto:
+              'Incorrecto. Estas herramientas sí ayudan a prever tendencias y reducir riesgos.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
